@@ -1,0 +1,7 @@
+interface:
+  display_name: "Upwork Proposal Workflow"
+  short_description: "Screen one job, draft, independent review loop, hand off for manual submission"
+  default_prompt: "Use $upwork-proposal-workflow on this single Upwork job: screen it, wait for my apply decision, then draft and run the independent review loop until it passes the gate."
+
+policy:
+  allow_implicit_invocation: false
